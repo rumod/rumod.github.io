@@ -1,0 +1,49 @@
+{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+<!-- site_tags: {{ site_tags }} -->
+{% assign tag_words = site_tags | split:',' | sort %}
+<!-- tag_words: {{ tag_words }} -->
+
+<header class="header">
+	<div class="container">
+		<h1 class="logo">
+			<a title="{{ site.title }}" href="{{ site.baseurl | append: '/' }}">{{ site.title }}</a>
+		</h1>
+		
+		<ul class="tags">
+<!--
+			{% for tag in tag_words %}
+			<li>
+				<a href="/tags/{{ tag | cgi_escape }}">{{ tag }}
+				</a>
+			</li>
+			{% unless forloop.last %}{% endunless %}
+			{% endfor %}
+-->
+			<li>
+				<a href="/tags/Mobile+app">Mobile App
+				</a>
+			</li>
+			<li>
+				<a href="/tags/web">WEB
+				</a>
+			</li>
+			<li>
+				<a href="/tags/publishing">Publishing
+				</a>
+			</li>
+			<li>
+				<a href="/tags/print">Print
+				</a>
+			</li>
+			<li>
+				<a href="/tags/illustration">Illustration
+				</a>
+			</li>
+			<li>
+				<a href="/tags/publishing">Publishing
+				</a>
+			</li>
+		</ul>
+		<a class="link" href="{{ '/about' }}">About</a>
+	</div>
+</header>

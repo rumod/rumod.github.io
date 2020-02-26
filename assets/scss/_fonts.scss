@@ -1,0 +1,110 @@
+@font-face {
+	font-family: 'Spoqa Han Sans';
+	font-weight: 700;
+	src: local('Spoqa Han Sans Bold'),
+		url('../fonts/SHS_sub/SpoqaHanSansBold.woff2') format('woff2'),
+		url('../fonts/SHS_sub/SpoqaHanSansBold.woff') format('woff'),
+		url('../fonts/SHS_sub/SpoqaHanSansBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Spoqa Han Sans';
+	font-weight: 400;
+	src: local('Spoqa Han Sans Regular'),
+		url('../fonts/SHS_sub/SpoqaHanSansRegular.woff2') format('woff2'),
+		url('../fonts/SHS_sub/SpoqaHanSansRegular.woff') format('woff'),
+		url('../fonts/SHS_sub/SpoqaHanSansRegular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Spoqa Han Sans';
+	font-weight: 300;
+	src: local('Spoqa Han Sans Light'),
+		url('../fonts/SHS_sub/SpoqaHanSansLight.woff2') format('woff2'),
+		url('../fonts/SHS_sub/SpoqaHanSansLight.woff') format('woff'),
+		url('../fonts/SHS_sub/SpoqaHanSansLight.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Spoqa Han Sans';
+	font-weight: 100;
+	src: local('Spoqa Han Sans Thin'),
+		url('../fonts/SHS_sub/SpoqaHanSansThin.woff2') format('woff2'),
+		url('../fonts/SHS_sub/SpoqaHanSansThin.woff') format('woff'),
+		url('../fonts/SHS_sub/SpoqaHanSansThin.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'S-CoreDream';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-2ExtraLight.woff') format('woff');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'S-CoreDream';
+	font-weight: 300;
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'S-CoreDream';
+	font-weight: 700;
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Titillium';
+	font-weight: 100;
+	src: url('../fonts/Titillium/TitilliumWeb-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Titillium';
+	font-weight: 300;
+	src: url('../fonts/Titillium/TitilliumWeb-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Titillium';
+	font-weight: 700;
+	src: url('../fonts/Titillium/TitilliumWeb-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Titillium';
+	font-weight: 100;
+	src: url('../fonts/Titillium/TitilliumWeb-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Titillium';
+	font-weight: 300;
+	src: url('../fonts/Titillium/TitilliumWeb-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Titillium';
+	font-weight: 100;
+	src: url('../fonts/Titillium/TitilliumWeb-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Titillium';
+	font-weight: 300;
+	src: url('../fonts/Titillium/TitilliumWeb-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'ubuntu-mono';
+	font-weight: 300;
+	font-style: italic;
+	src: url('../fonts/Ubuntu_Mono/UbuntuMono-Italic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'ubuntu-mono';
+	font-weight: 300;
+	font-style: normal;
+	src: url('../fonts/Ubuntu_Mono/UbuntuMono-Regular.ttf') format('truetype');
+}

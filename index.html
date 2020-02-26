@@ -1,0 +1,36 @@
+---
+title: Designer & Publisher
+---
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	{% include head.html %}
+</head>
+
+<body>
+	{% include header.html %}
+	<main>
+		<section class="projects">
+			<div class="container">
+				<ul class="projects-list">
+					<li class="grid-sizer"></li>
+					{% for item in site.categories.projects %}
+					<li class="grid-item {{ item.project.title-lang }}">
+						<a href="{{ item.url }}">
+							<div class="img-wrapper">
+								<img src="{{ item.project.thumbnail }}" alt="{{ item.project.title }}" />
+							</div>
+							<h3>{{ item.project.title }}</h3>
+							<span>{{ item.project.type }}<br />{{ item.project.workingperiod }}</span>
+						</a>
+					</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</section>
+	</main>
+	{% include footer.html %}
+</body>
+
+</html>

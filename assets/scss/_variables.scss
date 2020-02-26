@@ -1,0 +1,45 @@
+/* Fonts
+ ****************************************************************/
+
+$font-default: 'Spoqa Han Sans', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif;
+$font-ubuntu: 'ubuntu-mono', $font-default;
+$font-titillium: 'Titillium', $font-default;
+$font-scoreDream: 'S-CoreDream', $font-default;
+
+/* Colors
+ ****************************************************************/
+
+$color-white: #ffffff;
+$color-black: #333342;
+$color-text100: #2F3E4E;
+$color-text70: rgba(47,62,78,.7);
+$color-text40: rgba(47,62,78,.4);
+$color-deepgrey: rgba(47,62,78,.24);
+$color-grey: rgba(47,62,78,.12);
+$color-foggrey: rgba(47,62,78,.05);
+$color-lightgrey: rgba(47,62,78,.02);
+$color-point01: #26EBD0;
+$color-point01deep: #00AB94;
+$color-silver-chalice: #aaa;
+$color-alabaster: #fafafa;
+$color-tango: #f46f25;
+$color-white-sand: #f6f6f6;
+
+/* Breakpoint
+ ****************************************************************/
+
+$breakpoint-xsmall: 320px;
+$breakpoint-small: 576px;
+$breakpoint-medium: 768px;
+$breakpoint-large: 992px;
+$breakpoint-xlarge: 1200px;
+
+/* Font size
+ ****************************************************************/
+$fsize-h1: 32px;
+$fsize-h2: 24px;
+$fsize-h3: 20px;
+$fsize-large: 16px;
+$fsize-normal: 14px;
+$fsize-small: 12px;
+$fsize-xsmall: 10px;
